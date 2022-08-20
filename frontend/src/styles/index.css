@@ -17,6 +17,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -101,49 +109,11 @@ button {
   background-color: var(--Very-Light-Gray);
   height: 700px;
 }
-.banking__section {
-  width: 90%;
-  margin: auto;
-  display: flex;
-}
-
-.banking__right {
-  position: relative;
-}
-.banking__right__intro {
-  position: absolute;
-  top: -255px;
-  right: -545px;
-}
-.banking__right__mockup {
-  position: relative;
-  top: -120px;
-  right: -220px;
-}
 
 /* easy banking section  */
 .choose__easy__bank {
   background-color: var(--Light-Grayish-Blue);
   /* height: 550px; */
-}
-.easy__bank {
-  width: 90%;
-  margin: auto;
-  padding: 80px 0;
-}
-.inner__easy__bank h2 {
-  font-size: 50px;
-  color: var(--Dark-Blue);
-  font-weight: 400;
-}
-.inner__easy__bank p {
-  padding: 20px 0 60px 0;
-  max-width: 650px;
-  color: var(--Grayish-Blue);
-}
-.flex__inner {
-  display: flex;
-  gap: 28px;
 }
 .articles h3 {
   padding: 20px 0;
@@ -167,37 +137,6 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1.6rem;
   padding: 20px 0 80px 0;
-}
-.card__container {
-  background-color: var(--White);
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.img__container img {
-  width: 100%;
-  height: 200px;
-}
-
-.card__information {
-  padding: 20px 28px 40px 26px;
-}
-.card__information h5 {
-  color: var(--Grayish-Blue);
-  font-size: 13px;
-  font-weight: 400;
-}
-.card__information h4 {
-  color: var(--Dark-Blue);
-  padding-top: 12px;
-  padding-bottom: 13px;
-  font-weight: 400;
-  font-size: 20px;
-}
-.card__information p {
-  color: var(--Grayish-Blue);
-  font-weight: 400;
-  font-size: 14px;
 }
 
 /* footer */

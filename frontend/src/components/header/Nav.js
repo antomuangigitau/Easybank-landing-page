@@ -5,17 +5,17 @@ import Login from './Login';
 const Nav = () => {
   return (
     <nav className='nav__container'>
-      <a href='index.html'>
+      <a href='/'>
         <img src={logo} alt='logo' />
       </a>
       <ul className='nav__header'>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='#home'>
+          <a className='nav__header__link' href='/home'>
             Home
           </a>
         </li>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='#about'>
+          <a className='nav__header__link' href='/about'>
             About
           </a>
         </li>

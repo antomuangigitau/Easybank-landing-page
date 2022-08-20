@@ -1,6 +1,7 @@
 import React from 'react';
 import Features from '../main/Features';
 import { items } from '../data';
+import '../../styles/Easy.css'
 const header = 'Why choose Easybank?';
 const paragraph = `We leverage Open Banking to turn your bank account into your financial hub. Control 
   your finances like never before.

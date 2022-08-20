@@ -4,6 +4,7 @@ import Banking from './components/main/Banking';
 import Easy from './components/main/Easy';
 import Latest from './components/main/Latest';
 import Contact from './components/footer/Contact';
+
 function App() {
   return (
     <div className='app__body'>

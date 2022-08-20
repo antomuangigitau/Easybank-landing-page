@@ -14,12 +14,17 @@ EasyBank enables EasyBank customers to easily manage all their accounts.
 ```bash
 git clone https://github.com/antomuangigitau/Easybank-landing-page
 ```
-2. Navigate to the frontend directory and run `npm i` to install required packages.
+2. Navigate to the frontend directory and install required packages from the Node Package Manager.
+```bash
+cd frontend
+npm install
+```
 
-3. Run `npm start` to start the frontend server.
+3. While in the frontend directory run `npm start` to start the frontend server.
 
 4. Navigate to the backend directory and fire up the backend server
-```python
+```bash
+cd backend
 python run.py
 ```
 5. Open your favorite browser and go to http://localhost:3000 to view the web application.

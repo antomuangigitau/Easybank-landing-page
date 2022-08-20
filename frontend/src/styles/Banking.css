@@ -1,0 +1,39 @@
+.banking__section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  
+  .banking__right {
+    position: relative;
+  }
+  
+  .banking__left {
+    margin: 100px;
+    margin-left: 5px;
+    font-family: Public Sans, sans-serif;
+    font-weight: 300;
+  }
+  
+  .banking__left h3 {
+    font-family: Public Sans, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+  }
+  
+  .header__banking {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .banking__right__intro {
+    position: absolute;
+    top: -255px;
+    right: -545px;
+  }
+  .banking__right__mockup {
+    position: relative;
+    top: -120px;
+    right: -220px;
+  }

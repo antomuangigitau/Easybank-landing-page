@@ -3,13 +3,28 @@ import Nav from './components/header/Nav';
 import Banking from './components/main/Banking';
 import Easy from './components/main/Easy';
 import Latest from './components/main/Latest';
-import Contact from './components/footer/Contact';
-
+import Contacts from './components/footer/Contacts';
+import { Routes, Route } from 'react-router-dom';
+//pages
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Blog from './components/pages/Blog';
+import Careers from './components/pages/Careers';
+import Signup from './components/login/Signup';
 function App() {
   return (
     <div className='app__body'>
       <header className='header__container'>
         <Nav />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/careers' element={<Careers />} />
+          <Route path='/signin' element={<Signup />} />
+        </Routes>
       </header>
       <main className='main__section'>
         <section className='main__banking__section'>
@@ -23,7 +38,7 @@ function App() {
         </section>
       </main>
       <footer className='footer'>
-        <Contact />
+        <Contacts />
       </footer>
     </div>
   );

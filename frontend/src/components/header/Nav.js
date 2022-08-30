@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.svg';
 import Button from './Button';
 import Login from './Login';
@@ -10,29 +11,29 @@ const Nav = () => {
       </a>
       <ul className='nav__header'>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='/home'>
+          <Link className='nav__header__link' to='/'>
             Home
-          </a>
+          </Link>
         </li>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='/about'>
+          <Link className='nav__header__link' to='/about'>
             About
-          </a>
+          </Link>
         </li>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='#contact'>
+          <Link className='nav__header__link' to='/contact'>
             Contact
-          </a>
+          </Link>
         </li>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='#blog'>
+          <Link className='nav__header__link' to='/blog'>
             Blog
-          </a>
+          </Link>
         </li>
         <li className='nav__header__list'>
-          <a className='nav__header__link' href='#careers'>
+          <Link className='nav__header__link' to='/careers'>
             Careers
-          </a>
+          </Link>
         </li>
       </ul>
       <div className='nav__buttons'>

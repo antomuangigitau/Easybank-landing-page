@@ -1,9 +1,11 @@
 from flask import Flask
 from flask_restful import Resource, Api, abort
-from .models import Customer
+from .models import setup_db, Customer
 
+database_path = 'sqlite:///./bank.db'
 app = Flask(__name__)
 api = Api(app)
+setup_db(app, database_path)
 
 def find_customer(customer_id):
     query = Customer.query.filter_by(id=customer_id).first()

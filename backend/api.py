@@ -21,6 +21,11 @@ class Customer(Resource):
         customer = find_customer(customer_id)
         return customer
 
+    def put(self, customer_id):
+        customer = find_customer(customer_id)
+        //Not thru
+
+api.add_resource(Customer, '/customer/<customer_id>')
 
 if __name__ == '__main__':
     app.run()

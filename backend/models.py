@@ -21,6 +21,16 @@ class Customer(db.Model):
     date_of_joining = Column(DateTime)
     username = Column(String)
     password = Column(String)
+    
+    def format(self):
+        return {
+            'first_name': self.first_name,
+            'last_name': self.last_name,
+            'phone': self.phone,
+            'email': self.email,
+            'join_date': self.date_of_joining,
+            'username': self.username
+        }
 
 class Account(db.Model):
     id = Column(Integer, primary_kry=True)

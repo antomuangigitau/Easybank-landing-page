@@ -1,15 +1,15 @@
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restful import Resource, Api, abort
 from .models import Customer
 
 app = Flask(__name__)
 api = Api(app)
 
 def find_customer(customer_id):
-    query = Customer.query.get(customer_id)
+    query = Customer.query.filter_by(id=customer_id).first()
 
     if query:
-        return query
+        return query.format()
     else:
         abort(404, message="Customer {} doesn't exist".format(customer_id))
 

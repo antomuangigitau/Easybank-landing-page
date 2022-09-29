@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from '../../styles/Login.module.css';
 const Login = () => {
   return (
-    <button className='login__btn'>
+    <button className={styles['login__btn']}>
       <a href='/signin'>Login</a>
     </button>
   );

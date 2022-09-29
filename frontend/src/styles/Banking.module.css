@@ -1,0 +1,62 @@
+.main__banking__section {
+  background-color: var(--Very-Light-Gray);
+}
+.image__container {
+  position: relative;
+  background-image: url('../images/bg-intro-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+.image__container::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/image-mockups.png');
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.banking__content {
+  text-align: center;
+}
+.banking__content h1 {
+  font-weight: 300;
+  font-size: 2.31rem;
+  line-height: 1.15;
+  color: var(--Dark-Blue);
+  margin-bottom: 1.5rem;
+}
+.banking__content p {
+  line-height: 1.5;
+  font-size: 18px;
+  color: var(--Grayish-Blue);
+  font-weight: 300;
+  margin-bottom: 2.26rem;
+}
+.container {
+  padding-top: 2.25rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
+}
+
+/* .banking__section {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.banking__content {
+  max-width: 450px;
+}
+
+.banking__content p {
+  margin: 25px 0;
+  line-height: 1.5em;
+  font-size: 18px;
+  color: var(--Grayish-Blue);
+  font-weight: 300;
+} */

@@ -87,8 +87,41 @@ const socials = [
   },
 ];
 
+const socialContainers = [
+  {
+    id: 1,
+    img: require('../images/google.svg').default,
+    text: 'Sign in with Google',
+    arrowIcon: require('../images/greater-than-solid.svg').default,
+  },
+  {
+    id: 2,
+    img: require('../images/facebook-blue.svg').default,
+    text: 'Sign in with Facebook',
+    arrowIcon: require('../images/greater-than-solid.svg').default,
+  },
+  {
+    id: 3,
+    img: require('../images/twitter.svg').default,
+    text: 'Sign in with Twitter',
+    arrowIcon: require('../images/greater-than-solid.svg').default,
+  },
+];
+
+const buttonName = [
+  {
+    id: 1,
+    title: 'Continue',
+  },
+  {
+    id: 2,
+    title: 'Agree and Sign Up',
+  },
+];
 module.exports = {
   moreItems: moreItems,
   items: items,
   socials: socials,
+  socialContainers: socialContainers,
+  buttonName: buttonName,
 };

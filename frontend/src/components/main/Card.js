@@ -1,13 +1,13 @@
 import React from 'react';
-import '../../styles/Card.css'
+import styles from '../../styles/Card.module.css';
 
 const Card = ({ img, author, title, message }) => {
   return (
-    <div className='card__container'>
-      <div className='img__container'>
+    <div className={styles['card__container']}>
+      <div className={styles['img__container']}>
         <img src={img} alt={img} />
       </div>
-      <div className='card__information'>
+      <div className={styles['card__information']}>
         <h5>{author}</h5>
         <h4>{title}</h4>
         <p>{message}</p>

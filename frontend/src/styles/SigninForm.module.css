@@ -1,0 +1,97 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.link__link {
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4a6ee0;
+}
+.signin__text__container {
+  margin-bottom: 16px;
+}
+.input__placeholder__container {
+  position: relative;
+}
+.default__placeholder {
+  color: #4d536e;
+  font-size: 14px;
+  pointer-events: none;
+  line-height: 21px;
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  transition: font-size 0.2s, top 0.2s;
+}
+.default__minimized {
+  font-size: 11px;
+  left: 12px;
+  line-height: 13px;
+  top: 5px;
+}
+.default__message {
+  color: #ea1537;
+  font-size: 11px;
+  line-height: 16px;
+  padding: 4px 12px 0;
+}
+.default__input__container {
+  height: 48px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #e7e9f5;
+  display: flex;
+}
+.default__input {
+  padding: 12px 12px 0;
+  flex: 1;
+}
+.base__input {
+  border: none;
+  outline: none;
+  line-height: 21px;
+  width: 100%;
+  font-size: 16px;
+}
+.base__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  position: relative;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #11a683;
+}
+.base__text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.trouble__shoot__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.base__unstyled {
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6d758d;
+}

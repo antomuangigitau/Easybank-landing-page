@@ -1,0 +1,48 @@
+.social__buttons {
+  width: 100%;
+}
+.social__buttons:not(:first-child) {
+  margin-top: 8px;
+}
+.base__basic {
+  width: inherit;
+  height: 48px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+.base__white {
+  background: #fff;
+  border: 1px solid #e7e9f5;
+  border-radius: 4px;
+  color: #4d536e;
+  outline: none;
+}
+
+.base__text {
+  flex: 1;
+  text-align: left;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.base__icon__wrapper {
+  margin-right: 12px;
+}
+.base__icon__wrapper img {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.base__arrow__icon img {
+  width: 10px;
+  height: 14px;
+}
+.base__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

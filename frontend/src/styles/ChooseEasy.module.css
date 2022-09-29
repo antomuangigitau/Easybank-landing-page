@@ -1,0 +1,23 @@
+/* easy banking section  */
+.choose__easy__bank {
+  background-color: var(--Light-Grayish-Blue);
+}
+.easy__bank {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0;
+}
+.inner__easy__bank h2 {
+  font-size: 2.1em;
+  color: var(--Dark-Blue);
+  font-weight: 300;
+}
+.inner__easy__bank p {
+  padding: 20px 0 60px 0;
+  max-width: 650px;
+  color: var(--Grayish-Blue);
+}
+.flex__inner {
+  display: flex;
+  gap: 28px;
+}

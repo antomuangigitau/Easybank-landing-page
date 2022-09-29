@@ -1,0 +1,11 @@
+/* footer */
+.footer {
+  background-color: var(--Dark-Blue);
+}
+.contacts__container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}

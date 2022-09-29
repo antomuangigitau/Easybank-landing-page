@@ -1,0 +1,8 @@
+.articles h3 {
+  padding: 20px 0;
+  color: var(--Dark-Blue);
+}
+.articles p {
+  font-weight: 400;
+  color: var(--Grayish-Blue);
+}

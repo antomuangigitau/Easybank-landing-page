@@ -1,17 +1,20 @@
 import React from 'react';
 import Card from './Card';
 import { moreItems } from '../data';
+import styles from '../../styles/Latest.module.css';
 const heading = 'Latest Articles';
 const Latest = () => {
   return (
-    <div className='outer'>
-      <h3>{heading}</h3>
-      <div className='outer__section__container'>
-        {moreItems.map((moreItem) => {
-          return <Card key={moreItem.id} {...moreItem} />;
-        })}
+    <section className={styles['latest__articles']}>
+      <div className={styles['latest']}>
+        <h3>{heading}</h3>
+        <div className={styles['latest__section__container']}>
+          {moreItems.map((moreItem) => {
+            return <Card key={moreItem.id} {...moreItem} />;
+          })}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

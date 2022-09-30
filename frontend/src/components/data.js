@@ -68,22 +68,27 @@ const socials = [
   {
     id: 1,
     img: require('../images/icon-facebook.svg').default,
+    link: 'https://www.facebook.com',
   },
   {
     id: 2,
     img: require('../images/icon-youtube.svg').default,
+    link: 'https://www.youtube.com',
   },
   {
     id: 3,
     img: require('../images/icon-twitter.svg').default,
+    link: 'https://www.twitter.com',
   },
   {
     id: 4,
     img: require('../images/icon-pinterest.svg').default,
+    link: 'https://www.pinterest.com',
   },
   {
     id: 5,
     img: require('../images/icon-instagram.svg').default,
+    link: 'https://www.instagram.com',
   },
 ];
 

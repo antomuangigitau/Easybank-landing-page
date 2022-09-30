@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Social = ({ img }) => {
+const Social = ({ img, link }) => {
   return (
-    <span>
-      <img src={img} alt={img} />
-    </span>
+    <a href={link}>
+      <span>
+        <img src={img} alt={img} />
+      </span>
+    </a>
   );
 };
 

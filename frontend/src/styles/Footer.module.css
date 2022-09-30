@@ -9,6 +9,29 @@
   justify-content: space-between;
   padding: 40px 0;
 }
+.contact__container {
+  display: flex;
+  flex-direction: column;
+}
+.socials {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.request__invite {
+  display: flex;
+  flex-direction: column;
+}
+.request__invite button {
+  align-self: flex-end;
+}
+.request__invite p {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  color: var(--Grayish-Blue);
+  font-size: 0.9375rem;
+}
 .img {
   fill: var(--White);
 }

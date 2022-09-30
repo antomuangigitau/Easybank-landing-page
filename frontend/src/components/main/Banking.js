@@ -17,7 +17,7 @@ const Banking = () => {
         <div className={styles['banking__content'] + ' ' + styles['container']}>
           <h1>{header}</h1>
           <p>{paragraph}</p>
-          <Button />
+          <Button type='submit' />
         </div>
       </div>
     </section>

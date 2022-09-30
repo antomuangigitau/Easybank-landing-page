@@ -53,7 +53,7 @@ const Nav = () => {
               </li>
             </ul>
             <div className={styles['nav__buttons']}>
-              <Button />
+              <Button type='submit' />
               <Login />
             </div>
           </div>

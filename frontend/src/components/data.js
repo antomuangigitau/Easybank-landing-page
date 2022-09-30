@@ -112,7 +112,41 @@ const socialContainers = [
     arrowIcon: require('../images/greater-than-solid.svg').default,
   },
 ];
+const companyInfo = [
+  {
+    id: 1,
+    link: '#aboutus',
+    title: 'About Us',
+  },
+  {
+    id: 2,
+    link: '#contact',
+    title: 'Contact',
+  },
+  {
+    id: 3,
+    link: '#blog',
+    title: 'Blog',
+  },
+];
 
+const companyInfo2 = [
+  {
+    id: 1,
+    link: '#careers',
+    title: 'Careers',
+  },
+  {
+    id: 2,
+    link: '#support',
+    title: 'Support',
+  },
+  {
+    id: 3,
+    link: '#privacy-policy',
+    title: 'Privacy Policy',
+  },
+];
 // const buttonName = [
 //   {
 //     id: 1,
@@ -128,5 +162,7 @@ module.exports = {
   items: items,
   socials: socials,
   socialContainers: socialContainers,
+  companyInfo: companyInfo,
+  companyInfo2: companyInfo2,
   // buttonName: buttonName,
 };

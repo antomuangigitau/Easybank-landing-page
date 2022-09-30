@@ -1,0 +1,6 @@
+.contact__list:not(:last-child) {
+  margin-bottom: 15px;
+}
+.contact__link {
+  color: var(--White);
+}

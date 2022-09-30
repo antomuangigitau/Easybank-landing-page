@@ -3,6 +3,7 @@ import Social from './Social';
 import { socials } from '../data';
 import Button from '../header/Button';
 import styles from '../../styles/Footer.module.css';
+import CompanyLinks from './CompanyLinks';
 
 const Footer = () => {
   return (
@@ -50,40 +51,7 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <ul className={styles['contact__links']}>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#aboutus'>
-              About Us
-            </a>
-          </li>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#contact'>
-              Contact
-            </a>
-          </li>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#blog'>
-              Blog
-            </a>
-          </li>
-        </ul>
-        <ul className='contact__links'>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#careers'>
-              Careers
-            </a>
-          </li>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#support'>
-              Support
-            </a>
-          </li>
-          <li className={styles['contact__list']}>
-            <a className={styles['contact__link']} href='#privacy-policy'>
-              Privacy Policy
-            </a>
-          </li>
-        </ul>
+        <CompanyLinks />
         <div className={styles['request__invite']}>
           <Button />
           <p> © Easybank. All Rights Reserved {new Date().getFullYear()}</p>

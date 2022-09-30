@@ -113,20 +113,20 @@ const socialContainers = [
   },
 ];
 
-const buttonName = [
-  {
-    id: 1,
-    title: 'Continue',
-  },
-  {
-    id: 2,
-    title: 'Agree and Sign Up',
-  },
-];
+// const buttonName = [
+//   {
+//     id: 1,
+//     title: 'Continue',
+//   },
+//   {
+//     id: 2,
+//     title: 'Agree and Sign Up',
+//   },
+// ];
 module.exports = {
   moreItems: moreItems,
   items: items,
   socials: socials,
   socialContainers: socialContainers,
-  buttonName: buttonName,
+  // buttonName: buttonName,
 };

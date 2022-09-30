@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Socials from './SigninSocials';
 import LoginButton from './LoginButton';
-import { buttonName } from '../data';
 import { socialContainers } from '../data';
 import styles from '../../styles/SigninForm.module.css';
 const SigninForm = () => {
@@ -70,7 +69,7 @@ const SigninForm = () => {
             </div>
           </div>
         </div>
-        <LoginButton title={buttonName[1].title} />
+        <LoginButton>Agree and Sign Up</LoginButton>
         <div style={{ height: '12px', flexShrink: '0' }}></div>
         <div style={{ height: '16px', flexShrink: '0' }}></div>
         <div className={styles['social__container']}>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Socials from './SigninSocials';
 import LoginButton from './LoginButton';
-import { socialContainers, buttonName } from '../data';
+import { socialContainers } from '../data';
 import styles from '../../styles/SigninForm.module.css';
 const SigninForm = () => {
   const [email, setEmail] = useState('');
@@ -69,10 +69,7 @@ const SigninForm = () => {
             </div>
           </div>
         </div>
-        <LoginButton title={buttonName[0].title} />
-        {/* <button className={styles['base__btn']} type='submit'>
-          <span className={styles['base__text']}>Continue</span>
-        </button> */}
+        <LoginButton>Continue</LoginButton>
         <div style={{ height: '12px', flexShrink: '0' }}></div>
         <div className={styles['trouble__shoot__link']}>
           <button type='button' className={styles['base__unstyled']}>
